@@ -206,6 +206,18 @@ pre {
 
 code {	
   max-width: 500px;
+  background-color: inherit;
+  color: inherit;
+  font-size: 0.8em;
+}
+
+pre > code {
+  font-size: 1em;
+  color: black;
+}
+
+.prettyprint {
+  background-color: white;
 }
 
 ul.tags {
@@ -315,28 +327,28 @@ li.L1, li.L3, li.L5, li.L7, li.L9 {  }
 /* DARK THEME */
 /* ---------- */
 
-.prettyprint-dark {
+.prettyprint {
   background-color: #1d1f21;
   border: 0;
   padding: 10px;
 }
-.prettyprint-dark .linenums li {
+.prettyprint .linenums li {
   color: #444;
 }
-.prettyprint-dark .linenums li:hover {
+.prettyprint .linenums li:hover {
   background-color: #282a2e;
 }
 /* tags in html */
-.prettyprint-dark .kwd,
-.prettyprint-dark .tag { color: #cc6666; }
+.prettyprint .kwd,
+.prettyprint .tag { color: #cc6666; }
 /* html attr */
-.prettyprint-dark .typ,
-.prettyprint-dark .atn,
-.prettyprint-dark .dec,
-.prettyprint-dark .var { color: #de935f; }
+.prettyprint .typ,
+.prettyprint .atn,
+.prettyprint .dec,
+.prettyprint .var { color: #de935f; }
 /* html attr values */
-.prettyprint-dark .str,
-.prettyprint-dark .atv { color: #b5bd68; }
+.prettyprint .str,
+.prettyprint .atv { color: #b5bd68; }
 
 /* Disqus */
 #dsq-global-toolbar, #dsq-pagination, #dsq-sort-by, #dsq-sort-select {display: none;}
