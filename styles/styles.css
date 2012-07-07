@@ -1,9 +1,9 @@
 /* Body */
 
 body {
-	background: #fff;
-	color: #666666;
-	font: 12px/1.5 Helvetica, Arial, sans-serif;
+	background: #f3f3f3;
+	color: #222;
+	font: 16px/1.5 'Lato', helvetica, arial, sans-serif;
 	margin: 0px;
 	padding: 50px;
 	width: 760px;
@@ -16,11 +16,11 @@ a {
 }
 
 a:link, a:active {
-	color: #5691CD;
+	color: #cf8a05;
 }
 
 a:visited {
-	color: #5691CD;
+	color: #cf8a05;
 }
 
 a:link:hover, a:active:hover, a:visited:hover {
@@ -28,11 +28,11 @@ a:link:hover, a:active:hover, a:visited:hover {
 }
 
 a:link:hover, a:active:hover {
-	color: #5691CD;
+	color: #cf8a05;
 }
 
 a:visited:hover {
-	color: #5691CD;
+	color: #cf8a05;
 }
 
 a > img {
@@ -51,24 +51,51 @@ blockquote {
 }
 
 strong, b {
-	font-family: helvetica, sans-serif;
+	font-family: 'Lato', helvetica, arial, sans-serif;
 	color: #333;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
 }
 
-.post h1 { font-weight: bold; margin: 20px 0 10px; font-size: 22px }
+.blog h1 { 
+	font-weight: 700; 
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	margin: 20px 0 10px;
+	font-size: 2.5em;
+}
 
-.post h2 { font-weight: bold; margin: 20px 0 10px; font-size: 18px;}
+.post h1 { 
+	font-weight: 700; 
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	margin: 20px 0 10px;
+	font-size: 2.5em;
+}
 
-.post h3 { font-weight: bold; margin: 20px 0 10px; font-size: 16px }
+.post h2 { 
+	font-weight: 700;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	margin: 20px 0 10px;
+	font-size: 2em;
+}
 
-.post h4 { font-weight: bold; margin: 20px 0 10px; font-size: 14px }
+.post h3 {
+	font-weight: 700;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	margin: 20px 0 10px;
+	font-size: 1.5em;
+}
+
+.post h4 { 
+	font-weight: 700;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	margin: 20px 0 10px;
+	font-size: 1.2em;
+}
 
 /* Description */
 
 .blog-description {
-	font: 14px/1.5 Georgia, Helvetica, Arial, sans-serif;
+	font: 14px/1.5 'Lato', helvetica, arial, sans-serif;
 }
 
 /* Menu */
@@ -131,11 +158,11 @@ strong, b {
 .body-post {
 	float: left;
 	margin-left: 20px;
-	font: 14px/1.5 Georgia, Helvetica, Arial, sans-serif;
+	font: 16px/1.5 'Lato', helvetica, arial, sans-serif;
 }
 
 .body-page {
-	font: 14px/1.5 Georgia, Helvetica, Arial, sans-serif;
+	font: 16px/1.5 'Lato', helvetica, arial, sans-serif;
 }
 
 .body-post img, .body-page img {
@@ -195,7 +222,7 @@ ul.tags {
 	ul.tags li a {
 	  margin: 0 15px 0 0; 
 	  float: left; 
-	  font-family: Helvetica, Arial, sans-serif;
+	  font-family: 'Lato', helvetica, arial, sans-serif;
 	  font-size: 12px;    
 	}
 
